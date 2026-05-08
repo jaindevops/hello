@@ -1,0 +1,4 @@
+This is test template
+
+The app name is: hello
+The app env is: dev
