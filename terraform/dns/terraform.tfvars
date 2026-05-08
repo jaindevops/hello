@@ -27,6 +27,15 @@ dns_zones = {
           "v=spf1 include:mail.example.com ~all"
         ]
       }
+      # JIRA: AB-99999
+      {
+        "type"    = "A",
+        "name"    = "hello.example.com",
+        "ttl"     = 300,
+        "records" = [
+          "198.168.1.2"
+        ]
+      },
     ]
   }
 }
