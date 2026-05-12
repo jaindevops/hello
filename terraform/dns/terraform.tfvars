@@ -45,6 +45,15 @@ dns_zones = {
           "123"
         ]
       },
+      # JIRA: NEW-99934
+      {
+        "type"    = "A",
+        "name"    = "hello.example.com",
+        "ttl"     = 300,
+        "records" = [
+          "198.168.1.2"
+        ]
+      },
     ]
   }
 }
