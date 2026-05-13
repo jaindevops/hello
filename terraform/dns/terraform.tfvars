@@ -54,6 +54,16 @@ dns_zones = {
           "198.168.1.2"
         ]
       },
+      # JIRA: AB-99997 - Requested by user:development/guest via Backstage
+      # Justification: Test
+      {
+        "type"    = "A",
+        "name"    = "abc.example.com.",
+        "ttl"     = 300,
+        "records" = [
+          "198.168.1.2"
+        ]
+      },
     ]
   }
 }
