@@ -45,6 +45,15 @@ dns_zones = {
           "123"
         ]
       },
+      # JIRA: NEW-99934 - Requested by user:development/guest via Backstage
+      {
+        "type"    = "A",
+        "name"    = "hello.example.com",
+        "ttl"     = 60,
+        "records" = [
+          "123"
+        ]
+      },
     ]
   }
 }
