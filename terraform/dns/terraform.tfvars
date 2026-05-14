@@ -73,6 +73,16 @@ dns_zones = {
           "198.168.1.2"
         ]
       },
+      # JIRA: A-99999
+      # Justification: This is for update
+      {
+        "type" = "A",
+        "name" = "ahi.example.com.",
+        "ttl"  = 300,
+        "records" = [
+          "198.168.1.2"
+        ]
+      },
     ]
   }
 }
