@@ -64,6 +64,15 @@ dns_zones = {
           "198.168.1.2"
         ]
       },
+      # JIRA: AB-99999
+      {
+        "type" = "A",
+        "name" = "bcd.example.com.",
+        "ttl"  = 300,
+        "records" = [
+          "198.168.1.2"
+        ]
+      },
     ]
   }
 }
