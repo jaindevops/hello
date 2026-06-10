@@ -73,6 +73,15 @@ dns_zones = {
           "198.168.1.2"
         ]
       },
+      # JIRA: CIT-10050
+      {
+        "type" = "A",
+        "name" = "abcd.example.com.",
+        "ttl"  = 300,
+        "records" = [
+          "198.168.1.4"
+        ]
+      },
     ]
   }
 }
