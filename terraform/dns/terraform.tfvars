@@ -73,6 +73,15 @@ dns_zones = {
           "198.168.1.2"
         ]
       },
+      # JIRA: ABHI-12365
+      {
+        "type" = "A",
+        "name" = "hello-abhi.example.com.",
+        "ttl"  = 300,
+        "records" = [
+          "2.4.7.10"
+        ]
+      },
     ]
   }
 }
