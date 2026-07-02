@@ -73,6 +73,16 @@ dns_zones = {
           "198.168.1.2"
         ]
       },
+      # JIRA: TEST-12345
+      # Justification: Test
+      {
+        "type" = "A",
+        "name" = "test-123456.example.com.",
+        "ttl"  = 300,
+        "records" = [
+          "4.5.6.8"
+        ]
+      },
     ]
   }
 }
